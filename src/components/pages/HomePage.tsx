@@ -131,7 +131,7 @@ const HeroSection = () => {
         <div className="relative w-full h-[70vh] overflow-hidden bg-gray-100">
             <motion.div style={{ y: y1 }} className="w-full h-[120%] -mt-[10%]">
                 <Image 
-                    src="https://static.wixstatic.com/media/12d367_71ebdd7141d041e4be3d91d80d4578dd~mv2.png?id=hero-main-device"
+                    src="https://static.wixstatic.com/media/5283f4_167d746e338a4df296a2e86d1b5b1b12~mv2.png?originWidth=1600&originHeight=896"
                     alt="Latest smartphone model in sleek environment"
                     className="w-full h-full object-cover"
                     width={2400}
@@ -187,21 +187,21 @@ const StickyServicesSection = () => {
             title: "Screen Replacement",
             desc: "Premium OLED and LCD replacements for all major brands. Restoring clarity and touch responsiveness.",
             icon: <Smartphone className="w-6 h-6" />,
-            image: "https://static.wixstatic.com/media/12d367_71ebdd7141d041e4be3d91d80d4578dd~mv2.png?id=service-screen"
+            image: "https://static.wixstatic.com/media/5283f4_f0e144890a654d75a109aa7a763746ac~mv2.png?originWidth=576&originHeight=448"
         },
         {
             id: "02",
             title: "Battery Diagnostics",
             desc: "Comprehensive power analysis and battery replacement to ensure your device lasts all day.",
             icon: <Zap className="w-6 h-6" />,
-            image: "https://static.wixstatic.com/media/12d367_71ebdd7141d041e4be3d91d80d4578dd~mv2.png?id=service-battery"
+            image: "https://static.wixstatic.com/media/5283f4_f981dc75274743e9aa27f8af5b3543fc~mv2.png?originWidth=576&originHeight=448"
         },
         {
             id: "03",
             title: "Hardware Repair",
             desc: "Micro-soldering and component-level repairs for water damage, charging ports, and logic boards.",
             icon: <Wrench className="w-6 h-6" />,
-            image: "https://static.wixstatic.com/media/12d367_71ebdd7141d041e4be3d91d80d4578dd~mv2.png?id=service-hardware"
+            image: "https://static.wixstatic.com/media/5283f4_0bce7fdf43f4442692839e8ddbfa2a9a~mv2.png?originWidth=576&originHeight=448"
         }
     ];
 
@@ -294,7 +294,7 @@ const FeaturedProductGrid = () => {
                         <AnimatedElement className="w-full h-full">
                             <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent z-10" />
                             <Image 
-                                src="https://static.wixstatic.com/media/12d367_71ebdd7141d041e4be3d91d80d4578dd~mv2.png?id=feat-headphones"
+                                src="https://static.wixstatic.com/media/5283f4_8902434ae24544e7b07b1a0deb34109f~mv2.png?originWidth=1152&originHeight=768"
                                 alt="Premium Headphones"
                                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                                 width={1200}
@@ -320,7 +320,7 @@ const FeaturedProductGrid = () => {
                             <AnimatedElement delay={100} className="w-full h-full">
                                 <div className="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-colors z-10" />
                                 <Image 
-                                    src="https://static.wixstatic.com/media/12d367_71ebdd7141d041e4be3d91d80d4578dd~mv2.png?id=feat-case"
+                                    src="https://static.wixstatic.com/media/5283f4_1cf1b8f168be4aa1b8126ed106285dd3~mv2.png?originWidth=1152&originHeight=768"
                                     alt="Protective Cases"
                                     className="w-full h-full object-cover"
                                     width={600}
@@ -335,7 +335,7 @@ const FeaturedProductGrid = () => {
                             <AnimatedElement delay={200} className="w-full h-full">
                                 <div className="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-colors z-10" />
                                 <Image 
-                                    src="https://static.wixstatic.com/media/12d367_71ebdd7141d041e4be3d91d80d4578dd~mv2.png?id=feat-charger"
+                                    src="https://static.wixstatic.com/media/5283f4_0b0aca3a92b949a3ab9d79ea670598c1~mv2.png?originWidth=1152&originHeight=768"
                                     alt="Fast Chargers"
                                     className="w-full h-full object-cover"
                                     width={600}

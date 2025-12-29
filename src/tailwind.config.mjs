@@ -23,15 +23,15 @@ export default {
                 paragraph: "barlow-extralight"
             },
             colors: {
-                neonaccent: '#E6FF00',
-                foreground: '#000000',
-                destructive: '#DF3131',
-                destructiveforeground: '#FFFFFF',
-                background: '#FFFFFF',
-                secondary: '#FFFFFF',
-                'secondary-foreground': '#000000',
-                'primary-foreground': '#FFFFFF',
-                primary: '#000000'
+                primary: "#000000",
+                "primary-foreground": "#FFFFFF",
+                secondary: "#FFFFFF",
+                "secondary-foreground": "#000000",
+                background: "#FFFFFF",
+                neonaccent: "#e32e2eff",
+                foreground: "#000000",
+                destructive: "#DF3131",
+                destructiveforeground: "#FFFFFF"
             },
         },
     },

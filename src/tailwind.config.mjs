@@ -20,7 +20,8 @@ export default {
             },
             fontFamily: {
                 heading: ["barlow-medium"],
-                paragraph: ["barlow-extralight"]
+                paragraph: ["barlow-extralight"],
+                "noticia-text": ["noticia text", "serif"]
             },
             colors: {
                 primary: "#FFFFFF",

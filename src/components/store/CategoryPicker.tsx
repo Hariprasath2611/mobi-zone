@@ -20,7 +20,7 @@ export function CategoryPicker({ categoriesListConfig }: CategoryPickerProps) {
         <div className="flex flex-wrap gap-2 overflow-x-auto scrollbar-hide pl-2">
           <CategoryList.CategoryRepeater>
             <Category.Trigger asChild>
-              <button className="px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 whitespace-nowrap text-muted-foreground hover:bg-muted hover:text-foreground data-[selected=true]:bg-primary data-[selected=true]:text-primary-foreground data-[selected=true]:border-primary data-[selected=true]:shadow-lg data-[selected=true]:transform data-[selected=true]:scale-105">
+              <button className="px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 whitespace-nowrap text-muted-foreground hover:bg-muted hover:text-foreground data-[selected=true]:bg-primary data-[selected=true]:text-primary-foreground data-[selected=true]:border-primary data-[selected=true]:shadow-lg data-[selected=true]:transform data-[selected=true]:scale-105 bg-secondary">
                 <Category.Label />
               </button>
             </Category.Trigger>

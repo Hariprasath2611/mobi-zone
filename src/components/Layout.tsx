@@ -27,7 +27,7 @@ export default function Layout() {
             <nav className="hidden md:flex items-center gap-8">
               <Link 
                 to="/" 
-                className={`font-heading text-sm uppercase transition-opacity ${
+                className={`font-heading text-sm uppercase transition-opacity text-white ${
                   isActive('/') && location.pathname === '/' ? 'opacity-100' : 'opacity-70 hover:opacity-100'
                 }`}
               >
@@ -35,7 +35,7 @@ export default function Layout() {
               </Link>
               <Link 
                 to="/store" 
-                className={`font-heading text-sm uppercase transition-opacity ${
+                className={`font-heading text-sm uppercase transition-opacity text-white ${
                   isActive('/store') ? 'opacity-100' : 'opacity-70 hover:opacity-100'
                 }`}
               >
@@ -43,7 +43,7 @@ export default function Layout() {
               </Link>
               <Link 
                 to="/services" 
-                className={`font-heading text-sm uppercase transition-opacity ${
+                className={`font-heading text-sm uppercase transition-opacity text-white ${
                   isActive('/services') ? 'opacity-100' : 'opacity-70 hover:opacity-100'
                 }`}
               >
@@ -51,7 +51,7 @@ export default function Layout() {
               </Link>
               <Link 
                 to="/contact" 
-                className={`font-heading text-sm uppercase transition-opacity ${
+                className={`font-heading text-sm uppercase transition-opacity text-white ${
                   isActive('/contact') ? 'opacity-100' : 'opacity-70 hover:opacity-100'
                 }`}
               >

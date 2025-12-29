@@ -23,15 +23,18 @@ export default {
                 paragraph: "barlow-extralight"
             },
             colors: {
-                primary: "#000000",
-                "primary-foreground": "#FFFFFF",
-                secondary: "#FFFFFF",
-                "secondary-foreground": "#000000",
-                background: "#FFFFFF",
-                neonaccent: "#e32e2eff",
-                foreground: "#000000",
+                primary: "#FFFFFF",
+                "primary-foreground": "#000000",
+                secondary: "#1a1a2e",
+                "secondary-foreground": "#FFFFFF",
+                background: "#0f0f1e",
+                neonaccent: "#00d4ff",
+                foreground: "#FFFFFF",
                 destructive: "#DF3131",
                 destructiveforeground: "#FFFFFF"
+            },
+            backgroundImage: {
+                'liquid-ether': 'radial-gradient(circle at 20% 50%, rgba(0, 212, 255, 0.15) 0%, transparent 50%), radial-gradient(circle at 80% 80%, rgba(138, 43, 226, 0.15) 0%, transparent 50%), radial-gradient(circle at 40% 20%, rgba(0, 255, 200, 0.1) 0%, transparent 50%)',
             },
         },
     },

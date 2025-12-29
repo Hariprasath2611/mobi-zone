@@ -12,14 +12,14 @@ export default function Layout() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col bg-background">
+    <div className="min-h-screen flex flex-col bg-background bg-liquid-ether">
       {/* Header */}
-      <header className="w-full bg-neonaccent sticky top-0 z-40">
+      <header className="w-full bg-secondary sticky top-0 z-40">
         <div className="max-w-[120rem] mx-auto px-6 lg:px-12">
           <div className="flex items-center justify-between h-16">
             {/* Logo */}
             <Link to="/" className="flex items-center gap-2">
-              <ShoppingBag className="w-6 h-6 text-primary" />
+              <ShoppingBag className="w-6 h-6 text-neonaccent" />
               <span className="font-heading text-xl uppercase text-primary">MOBILE SHOP</span>
             </Link>
 
@@ -73,12 +73,12 @@ export default function Layout() {
       </main>
 
       {/* Footer */}
-      <footer className="w-full bg-primary text-primary-foreground mt-24">
+      <footer className="w-full bg-secondary text-primary mt-24">
         <div className="max-w-[120rem] mx-auto px-6 lg:px-12 py-16">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
             {/* About */}
             <div>
-              <h3 className="font-heading text-lg uppercase mb-4">MOBILE SHOP</h3>
+              <h3 className="font-heading text-lg uppercase mb-4 text-neonaccent">MOBILE SHOP</h3>
               <p className="font-paragraph text-sm opacity-90">
                 Your trusted destination for premium mobile devices, accessories, and professional repair services.
               </p>
@@ -86,7 +86,7 @@ export default function Layout() {
 
             {/* Quick Links */}
             <div>
-              <h3 className="font-heading text-lg uppercase mb-4">Quick Links</h3>
+              <h3 className="font-heading text-lg uppercase mb-4 text-neonaccent">Quick Links</h3>
               <ul className="space-y-2">
                 <li>
                   <Link to="/store" className="font-paragraph text-sm opacity-90 hover:opacity-100 transition-opacity">
@@ -108,7 +108,7 @@ export default function Layout() {
 
             {/* Contact Info */}
             <div>
-              <h3 className="font-heading text-lg uppercase mb-4">Contact</h3>
+              <h3 className="font-heading text-lg uppercase mb-4 text-neonaccent">Contact</h3>
               <ul className="space-y-3">
                 <li className="flex items-center gap-3">
                   <Phone className="w-4 h-4" />

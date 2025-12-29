@@ -602,7 +602,7 @@ ProductStock.displayName = 'ProductStock';
  * ```
  */
 
-const productActionBtnClass = 'flex-1 relative btn-primary';
+const productActionBtnClass = 'flex-1 relative btn-primary text-black';
 
 export const ProductActionAddToCart = React.forwardRef<
   React.ElementRef<typeof ProductPrimitive.ProductActionAddToCart>,
